@@ -2,7 +2,7 @@ Pass the Pigs: Text-Based Edition
 =================================
 
 ![Pass the Pigs screenshot]
-(http://i.imgur.com/gHmWrMn.png)
+(http://i.imgur.com/KE65Tey.png)
 
 One particularly thrilling day, after a hard and energetic game of Pass the Pigs with the fellow enthusiasts, I realised just how little the game depended on physical pieces. And, remembering the age-old adage: "There is little as enjoyable as a text-based game.", I decided to combine two of the world's greatest pleasures into one united whole.
 
