@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pass the Pigs: Text-based version</title>
+    <style>
+    body {
+      cursor: default;
+      margin: 20pt 26pt;
+      background: black;
+      font: 12pt monospace;
+    }
+    ::selection {
+      background-color: white;
+      color: black;
+    }
+    ol {
+      padding: 0; margin: 0;
+      list-style-type: none;
+    }
+    li {
+      color: white;
+      text-shadow: 0px 0px 2px;
+      animation: flicker 0.2s infinite alternate linear;
+      line-height: 18pt;
+    }
+    li.centred {
+      text-align: center;
+    }
+    li.large {
+      font-size: 16pt;
+    }
+    li.input {
+      color: grey;
+    }
+    li.faded {
+      opacity: 0.2;
+      transition: opacity 2s;
+    }
+    li.persistent {
+      position: fixed;
+      left: 0; right: 0;
+      opacity: 1;
+      z-index: 1;
+      background: black;
+      box-shadow: black 0 4px 16px 4px;
+    }
+    li.persistent:first-child {
+      padding-top: 20pt; margin-top: -20pt;
+    }
+    input {
+      cursor: default;
+      color: lime;
+      text-shadow: 0px 0px 2px;
+      font: 12pt monospace;
+      background: black;
+      margin: 0;
+      width: 100%;
+      outline: none; border: none;
+    }
+    @keyframes flicker {
+    }
+    </style>
+    <script src="pass-the-pigs.js"></script>
+  </head>
+  <body onload="start();">
+    <ol id="flow"></ol>
+  </body>
+</html>
